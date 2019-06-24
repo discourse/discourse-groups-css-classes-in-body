@@ -1,0 +1,9 @@
+<script type="text/discourse-plugin" version="0.8">
+  const user = api.getCurrentUser();
+  const body = document.querySelector('body');
+  
+  user
+    .groups
+    .map((g) => `group-${g.name}`)
+    .forEach((g) => body.classList.add(g));
+</script>
