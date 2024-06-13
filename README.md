@@ -12,5 +12,5 @@ body.group-patrons div.donation-banner {
 
 ## Feedback
 
-If you have issues or suggestions for the plugin, please bring them up on
-[Discourse Meta](https://meta.discourse.org).
+If you have issues or suggestions for this theme component, please bring them up on
+[Discourse Meta](https://meta.discourse.org/t/css-classes-for-current-users-groups/226068).
