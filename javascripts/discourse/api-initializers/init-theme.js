@@ -7,7 +7,7 @@ export default apiInitializer((api) => {
   if (user) {
     // if user is present, then they belong to logged_in_users
     body.classList.add("group-logged_in_users");
-    
+
     // add specific auto and custom groups
     user.groups?.forEach((g) => {
       body.classList.add(`group-${g.name}`);
