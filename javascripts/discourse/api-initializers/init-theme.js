@@ -9,7 +9,7 @@ export default apiInitializer((api) => {
     body.classList.add("group-logged_in_users");
 
     // add specific auto and custom groups
-    user.groups?.forEach((g) => {
+    user.visibleGroups?.forEach((g) => {
       body.classList.add(`group-${g.name}`);
     });
   } else {
